@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navegacao{
+    display:flex;
+    flex-flow: row wrap;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.logo{
+    color:rgb(111, 0, 255);
+    flex:20%;
+    margin-left: 10%;
+    text-align: left;
+    text-shadow: 3px 2px black;
+    white-space: nowrap;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.logo h1{
+    font-family: "Jersey 10", sans-serif;
+}
+
+.menu{
+    flex:65%;
+    text-align: right;
+    padding:20px;
+}
+.menu a{
+    padding: 20px 16px;
+    font-size:20px;
+    text-decoration: none;
+    color: rgb(111, 0, 255);
+}
+.menu a:hover{
+    color:rgb(245, 0, 253);
+    border-top:4px solid rgb(111, 0, 255);
+}
+#fale_conosco{
+    background:rgb(111, 0, 255);
+    color:white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-right: 10%;
+    margin-left:5%;
+}
+#fale_conosco:hover{
+    border:none;
+    background: rgb(199, 60, 199);
+}
+.header{
+    padding-top: 100px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho{
+    flex:40%;
+    margin-left:10%;
+}
+.imagem{
+    flex:40%;
+    margin-right:10%;
+}
+
+.header h2{
+    color: rgb(199, 60, 199);
+   font-weight: 900;
+   padding: 0;
+   margin:0;
+   text-shadow: 2px 2px black;
+}
+.botao img {
+    width: 80px;
+    height:80px;
+    margin-right: 50px;
+    
+}
+.cabecalho p{
+    font-size:20px;
+    line-height: 30px;
+}
+section{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right:10%;
+    height:100%;
+    text-align: center;
+}
+section h2{
+    width: 100%;
+    margin-top:0%;
+    font-size:80px;
+    letter-spacing: 15px;
+    text-shadow: 5px 2px black;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: bold;
+    color:rgb(111, 0, 255);
+}
+
+.conhecimento{
+    display: inline-block;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin:1%;
+    border:solid 1px rgb(111, 0, 255);
+    border-radius: 20px;
+}
+.texto-oculto{
+    display: none;
+}
+.card:hover{
+    background-color: rgb(111, 0, 255);
+    color:white;
+}
+.card:hover img{
+    display: none;
+}
+.card:hover .card-text{
+    display: none;
+}
+.card:hover .texto-oculto{
+    display: block;
+}
+footer{
+    margin-top: 100px;
+    height: 450px;
+    background-image: linear-gradient(180deg, #6f00ff,rgb(80, 0, 37));
+    color:white;
+    text-align: center;
+    border-top: 5px solid rgb(255, 0, 255);
+}
+.rodape{
+    padding: 100px;
+    font-family: "Jersey 10", sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+    
+}
+.whatsapp{
+    position:fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 50px;
+}
